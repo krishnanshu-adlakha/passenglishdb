@@ -1,6 +1,7 @@
 from flask import Blueprint, render_template, request, redirect, session, flash
 import requests
 import json
+from urllib.parse import unquote
 
 views = Blueprint("views",__name__)
 
@@ -137,7 +138,7 @@ def bycharacter(text):
 
 @views.route("/printquotes/<name>/<quotes>")
 def printquotes(name,quotes):
-    quotes_list = eval(quotes)
+    quotes_list = eval(unquote(quotes))
     return render_template("pdf_template.html",quotes=quotes_list,name=name)
 
 @views.route("/examples/<id>")
