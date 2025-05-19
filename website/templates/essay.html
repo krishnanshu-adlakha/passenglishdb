@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block title %}{{essay["shortName"]}}{% endblock %}
+{% block content %}
+<br>
+
+<div class="align-items-center">
+    <h1 align="center" class="fw-bold">{{essay["title"]}}</h1>
+    <h4 align="center" class="fst-italic"">Written by {{essay["author"]}}</h4>
+    <h5 align="center" class="fw-bold">{{essay["level"]}}</h5>
+    <div class="text-center">
+        <a class="btn btn-primary text-center" href="{{ url_for('views.printessay', id=essay['id']) }}">Print</a>
+    </div>
+    <br>
+    <p align="center" style="white-space: pre-line;" class="fs-3">{{essay["essay"]}}</p>
+</div>
+<br>
+{% endblock %}
