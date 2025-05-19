@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+{% block title %}Example Essays{% endblock %}
+{% block content %}
+
+<br>
+
+<div class="row row-cols-1 g-3">
+    {%for example in examples%}
+    <div class="container p-3">
+        <div class="card">
+
+            <div class="card-body text-center">
+                <h4 class="card-title fw-bold">{{example["title"]}}</h4>
+                <p class="card-text fs-5">
+                    {{example["author"]}}
+                </p>
+                <p class="card-text">
+                    {{example["level"]}}
+                </p>
+            </div>
+            <a class="btn btn-light" href="{{ url_for('views.examples', id=example['id']) }}">View Essay</a>
+
+        </div>
+    </div>
+        {%endfor%}
+        
+    </div>
+    <br>
+    <br>
+    <br>
+
+    {% endblock %}
