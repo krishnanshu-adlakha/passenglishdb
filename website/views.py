@@ -71,6 +71,7 @@ def home():
 
 @views.route("/bypoem/<name>")
 def bypoem(name):
+    name=unquote(name)
     if name == "all":
         return render_template("bypoem.html",poems=all_poems)
     elif name in all_poem_names:
@@ -86,6 +87,8 @@ def bypoem(name):
 
 @views.route("/bytheme/<text>/<theme>")
 def bytheme(text,theme):
+    theme=unquote(theme)
+    text=unquote(text)
     if theme == "all":
         if text == "poetry":
             themes = get_themes(poetry_quotes)
@@ -115,6 +118,7 @@ def bytheme(text,theme):
 
 @views.route("bycharacter/<text>")
 def bycharacter(text):
+    text = unquote(text)
     if text == "inspector":
         return render_template("bycharacter.html",characters=inspector_characters)
     elif text == "rj":
