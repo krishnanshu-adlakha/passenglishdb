@@ -130,14 +130,14 @@ def bycharacter(text):
         quotes = []
         for quote in inspector_quotes:
             if text == quote["character"]:
-                quotes.append(quote["quote"])
+                quotes.append(quotes.append({"quote":quote["quote"],"speaker":quote["character"]}))
         
         return render_template("quotes.html",quotes=quotes,name=text)
     elif text in rj_characters:
         quotes = []
         for quote in rj_quotes:
             if text == quote["character"]:
-                quotes.append(quote["quote"])
+                quotes.append(quotes.append({"quote":quote["quote"],"speaker":quote["character"]}))
         
         return render_template("quotes.html",quotes=quotes,name=text)
     else:
