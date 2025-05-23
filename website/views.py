@@ -79,7 +79,7 @@ def bypoem(name):
 
         for quote in poetry_quotes:
             if quote["poem"] == name:
-                quotes.append(quote["quote"])
+                quotes.append({"quote":quote["quote"],"speaker":quote["poem"]})
 
         return render_template("quotes.html",quotes=quotes,name=name)
     else:
@@ -112,7 +112,10 @@ def bytheme(text,theme):
         quotes = []    
         for quote in all_quotes:
             if theme in quote["themes"]:
-                quotes.append(quote["quote"])
+                if all_quotes == poetry_quotes:
+                    quotes.append({"quote":quote["quote"],"speaker":quote["poem"]})
+                else:
+                    quotes.append({"quote":quote["quote"],"speaker":quote["character"]})
 
         return render_template("quotes.html",quotes=quotes,name=theme)
 
