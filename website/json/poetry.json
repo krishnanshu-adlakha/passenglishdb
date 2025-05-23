@@ -5,13 +5,98 @@
         "themes":["Memory","Effects of conflict"]
     },
     {
-        "quote":"The drink and drugs won't flush him out",
+        "quote":"the drink and drugs won't flush him out",
         "poem":"Remains",
         "themes":["Memory","Effects of conflict"]
     },
     {
         "quote": "Our brains ache, in the merciless iced east winds that knive us...",
         "poem":"Exposure",
-        "themes":["Power of nature","Effects of conflict","Reality of war"]
+        "themes":["Power of nature","Effects of conflict","Reality of war","Collective experience"]
+    },
+    {
+        "quote": "probably armed, possibly not",
+        "poem":"Remains",
+        "themes":["Effects of conflict","Guilt","Personal responsibility","Memory"]
+    },
+    {
+        "quote": "are all of the same mind",
+        "poem":"Remains",
+        "themes":["Effects of conflict","War","Deindividuation","Collective experience"]
+    },
+    {
+        "quote": "I see every round as it rips through his life - ",
+        "poem":"Remains",
+        "themes":["Effects of conflict","War","Violent imagery","Guilt","Memory"]
+    },
+    {
+        "quote": "So we've hit this looter a dozen times",
+        "poem":"Remains",
+        "themes":["Effects of conflict","War","Colliquial Language"]
+    },
+    {
+        "quote": "pain itself, the image of agony",
+        "poem":"Remains",
+        "themes":["Effects of conflict","War","Violent imagery","Memory"]
+    },
+    {
+        "quote": "and tosses his guts back into his body",
+        "poem":"Remains",
+        "themes":["Effects of conflict","War","Violent imagery","Colliquial Language"]
+    },
+    {
+        "quote": "His blood-shadow satys on the street",
+        "poem":"Remains",
+        "themes":["Effects of conflict","War","Violent imagery","Memory"]
+    },
+    {
+        "quote": "not left for dead in some distant, sun-stunned, sand-smothered land",
+        "poem":"Remains",
+        "themes":["Effects of conflict","War","Violent imagery","Memory"]
+    },
+
+    {
+        "quote": "But nothing happens.",
+        "poem":"Exposure",
+        "themes":["Effects of conflict","War","Weather","Reality of war"]
+    },
+    {
+        "quote": "What are we doing here?",
+        "poem":"Exposure",
+        "themes":["Effects of conflict","War","Reality of war"]
+    },
+    {
+        "quote": "Dawn massing in the east her melancholy army",
+        "poem":"Exposure",
+        "themes":["Effects of conflict","War","Weather","Power of nature","Reality of war"]
+    },
+    {
+        "quote": "Is it that we are dying?",
+        "poem":"Exposure",
+        "themes":["Effects of conflict","War","Reality of war"]
+    },
+    {
+        "quote": "Pale flakes with fingering stealth come feeling for our faces - ",
+        "poem":"Exposure",
+        "themes":["Effects of conflict","War","Weather","Power of nature","Reality of war"]
+    },
+    {
+        "quote":"In raw-seamed hot khaki, his sweat heavy",
+        "poem":"Bayonet Charge",
+        "themes":["Effects of conflict","War","Reality of war"]
+    },
+    {
+        "quote":"Stumbling across a field of clods towards a green hedge",
+        "poem":"Bayonet Charge",
+        "themes":["Power of nature","Reality of war","Effects of conflict"]
+    },
+    {
+        "quote":"The patriotic tear that had brimmed in his eye",
+        "poem":"Bayonet Charge",
+        "themes":["Reality of war","Effects of conflict","Power"]
+    },
+    {
+        "quote":"",
+        "poem":"Bayonet Charge",
+        "themes":[]
     }
-]
