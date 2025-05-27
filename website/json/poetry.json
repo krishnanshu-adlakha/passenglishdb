@@ -45,7 +45,7 @@
         "themes":["Effects of conflict","War","Violent imagery","Colliquial Language"]
     },
     {
-        "quote": "His blood-shadow satys on the street",
+        "quote": "His blood-shadow stays on the street",
         "poem":"Remains",
         "themes":["Effects of conflict","War","Violent imagery","Memory","Reality of war"]
     },
@@ -96,8 +96,59 @@
         "themes":["Reality of war","Effects of conflict","Power"]
     },
     {
-        "quote":"",
+        "quote":"Threw up a yellow hare that rolled like a flame",
         "poem":"Bayonet Charge",
-        "themes":[]
-    }
+        "themes":["Power of nature"]
+    },
+        {
+        "quote":"He plunged past with his bayonet toward the green hedge",
+        "poem":"Bayonet Charge",
+        "themes":["Power of nature"]
+    },
+    {
+        "quote":"King, honour, human dignity, etcetera/Dropper like luxuries in a yelling alarm",
+        "poem":"Bayonet Charge",
+        "themes":["Effects of conflict","Reality of war","Power"]
+    },
+    {
+        "quote":"a shaven head full of powerful incantations",
+        "poem":"Kamikaze",
+        "themes":["Effects of conflict","Reality of war","Power"]
+    },
+        {
+        "quote":"one-way journey into history",
+        "poem":"Kamikaze",
+        "themes":["Effects of conflict","Reality of war","Power","Memory"]
+    },
+            {
+        "quote":"at the little fishing boats/strung out like bunting/on a green-blue translucent sea",
+        "poem":"Kamikaze",
+        "themes":["Effects of conflict","Reality of war","Powe of nature","Memory"]
+    },
+    {
+        "quote":"the dark shoals of fishes/flashing silver as their bellies/swivelled towards the sun",
+        "poem":"Kamikaze",
+        "themes":["Effects of conflict","Power of nature"]
+    },
+            {
+        "quote":"remembered...he and his brothers waiting on the shore",
+        "poem":"Kamikaze",
+        "themes":["Effects of conflict","Memory"]
+    },
+            {
+        "quote":"a tuna, the dark prince, musuclar, dangerous",
+        "poem":"Kamikaze",
+        "themes":["Effects of conflict","Reality of war","Power of nature"]
+    },
+            {
+        "quote":"never spoke again...nor did she meet his eyes",
+        "poem":"Kamikaze",
+        "themes":["Effects of conflict","Reality of war","Memory"]
+    },
+                {
+        "quote":"he must haved wondered/which had been the better way to die",
+        "poem":"Kamikaze",
+        "themes":["Effects of conflict","Reality of war","Memory"]
+    },
+    
 ]
