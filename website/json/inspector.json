@@ -1,7 +1,197 @@
 [
     {
-        "quote":"...for lower costs and higher prices",
+        "quote":"for lower costs and higher prices",
         "character":"Mr Birling",
         "themes":["Capitalism"]
+    },
+    {
+        "quote":"heavy-looking",
+        "character":"Mr Birling",
+        "themes":["Stage directions","Unlikeable"]
+    },
+    {
+        "quote":"a man has to mind his own business and look after himself and his own",
+        "character":"Mr Birling",
+        "themes":["Capitalism","Upper Class","Social division","Social responsibility"]
+    },
+    {
+        "quote":"unsinkable, absolutely unsinkable",
+        "character":"Mr Birling",
+        "themes":["Upper Class","Foolishness","Dramatic Irony"]
+    },
+    {
+        "quote":"I'm talking as a hard-headed practical man of business...there isn't a chance of war",
+        "character":"Mr Birling",
+        "themes":["Upper Class","Foolishness","Dramatic Irony","Capitalism"]
+    },
+    {
+        "quote":"girls of that class",
+        "character":"Mrs Birling",
+        "themes":["Upper Class","Social division"]
+    },
+    {
+        "quote":"the things you girls pick up these days",
+        "character":"Mrs Birling",
+        "themes":["Upper Class","Social division","Foolishness","Patriarchal society"]
+    },
+    {
+        "quote":"unlike the other three, I did nothing I'm ashamed of",
+        "character":"Mrs Birling",
+        "themes":["Upper Class","Foolishness","Social responsibility","Social change"]
+    },
+    {
+        "quote":"I don't believe it. I won't believe it.",
+        "character":"Mrs Birling",
+        "themes":["Upper Class","Foolishness","Social responsibility","Social change"]
+    },
+    {
+        "quote":"I blame the young man who was the father of the child",
+        "character":"Mrs Birling",
+        "themes":["Upper Class","Foolishness","Social responsibility","Social change"]
+    },
+    {
+        "quote":"These girls aren't cheap labour. They'e people.",
+        "character":"Sheila",
+        "themes":["Young generation","Social change","Socialism"]
+    },
+    {
+        "quote":"Why -you fool- he knows. Of course he knows",
+        "character":"Sheila",
+        "themes":["Young generation","Social change","Foolishness"]
+    },
+    {
+        "quote":"Now I really feel engaged.",
+        "character":"Sheila",
+        "themes":["Young generation","Upper Class"]
+    },
+    {
+        "quote":"I suppose we're all nice people now.",
+        "character":"Sheila",
+        "themes":["Young generation","Social change","Social responsibility"]
+    },
+    {
+        "quote":"Look mummy, isn't it a beauty?",
+        "character":"Sheila",
+        "themes":["Young generation","Upper Class","Foolishness"]
+    },
+    {
+        "quote":"I'll never, never do it to anybody again",
+        "character":"Sheila",
+        "themes":["Young generation","Social change","Social responsibility"]
+    },
+    {
+        "quote":"It's you two who are being childish - trying not to face the facts",
+        "character":"Sheila",
+        "themes":["Young generation","Upper Class","Foolishness","Social change"]
+    },
+    {
+        "quote":"We are members of one body. We are responsible for each other.",
+        "character":"The Inspector",
+        "themes":["Socialism","Social change","Social responsibility","Social division"]
+    },
+    {
+        "quote":"Each of you helped kill her.",
+        "character":"The Inspector",
+        "themes":["Socialism","Social change","Social responsibility"]
+    },
+    {
+        "quote":"If men will not learn that lesson, then they will be taught in fire and blood and anguish",
+        "character":"The Inspector",
+        "themes":["Socialism","Social change","Social responsibility"]
+    },
+    {
+        "quote":"I don't play golf.",
+        "character":"The Inspector",
+        "themes":["Social division","Upper Class"]
+    },
+    {
+        "quote":"brighter and harder",
+        "character":"The Inspector",
+        "themes":["Stage directions"]
+    },
+    {
+        "quote":"He creates at once an impression of massiveness, solidity and purposefullness.",
+        "character":"The Inspector",
+        "themes":["Stage directions","Social change"]
+    },
+    {
+        "quote":"Public men, Mr Birling, have responsibilities as well as privileges.",
+        "character":"The Inspector",
+        "themes":["Social change","Social responsibility","Upper Class"]
+    },
+    {
+        "quote":"It's better to ask for the Earth than to take it.",
+        "character":"The Inspector",
+        "themes":["Socialism","Social change","Social responsibility","Upper Class"]
+    },
+    {
+        "quote":"Why shouldn't they try for higher wages? We try for the highest possible prices.",
+        "character":"Eric",
+        "themes":["Capitalism","Social change","Social responsibility"]
+    },
+    {
+        "quote":"I was in that state when a chap easily turns nasty",
+        "character":"Eric",
+        "themes":["Unlikeable","Patriarchal society"]
+    },
+    {
+        "quote":"The girl's dead and we all killed her",
+        "character":"Eric",
+        "themes":["Young generation","Social change","Social responsibility"]
+    },
+    {
+        "quote":"...you're not the kind of father a chap could go to when he's in trouble.",
+        "character":"Eric",
+        "themes":["Patriarchal society","Social change","Social responsibility"]
+    },
+    {
+        "quote":"...my child - your own grandchild - you killed them both - damn you, damn you",
+        "character":"Eric",
+        "themes":["Social change","Social responsibility"]
+    },
+    {
+        "quote":"It's what happenned to the girl and what we all did to her that matters",
+        "character":"Eric",
+        "themes":["Social change","Social responsibility","Foolishness"]
+    },
+    {
+        "quote":"half-shy, half-assertive",
+        "character":"Eric",
+        "themes":["Stage directions"]
+    },
+    {
+        "quote":"She was a good sport.",
+        "character":"Eric",
+        "themes":["Patriarchal society","Social change","Social responsibility"]
+    },
+    {
+        "quote":"It may have all been nonsense.",
+        "character":"Gerald",
+        "themes":["Capitalism","Social change","Social responsibility","Upper Class"]
+    },
+    {
+        "quote":"I don't come into this suicide business.",
+        "character":"Gerald",
+        "themes":["Social change","Social responsibility","Upper Class","Foolishness","Unlikeable"]
+    },
+    {
+        "quote":"I didn't ask for anything in return."
+        "character":"Gerald",
+        "themes":["Patriarchal society","Social responsibility","Upper Class"]
+    },
+    {
+        "quote":"We're respectable citizens and not criminals.",
+        "character":"Gerald",
+        "themes":["Social change","Social responsibility","Upper Class"]
+    },
+    {
+        "quote":"For God's sake, don't say anything to the Inspector",
+        "character":"Gerald",
+        "themes":["Social change","Social responsibility","Upper Class","Foolishness","Unlikeable"]
+    },
+    {
+        "quote":"Everything's all right now, Sheila....What about this ring?",
+        "character":"Gerald",
+        "themes":["Patriarchal society","Social change","Upper Class"]
     }
 ]
