@@ -12,3 +12,8 @@ This a simple web app created with Python and Flask which contains many essentia
 + Filter quotes by character/poem
 + Print sheets of quotes for your own revision
 + Printable Grade 9 example essays
+
+# Progress
++ Inspector quotes complete
++ 4/15 poems from Power and Conflict completed
++ Romeo and Juliet coming soon...
