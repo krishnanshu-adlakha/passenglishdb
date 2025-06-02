@@ -39,17 +39,19 @@
     </style>
     
     <h1 class="text-center fw-bold">{{name}}</h2>
+    <p class="fw-bold">Explore more at passenglish.vercel.app - Developed by Krishnanshu Adlakha</p>
         <br>
         <div class="row row-cols-1 g-3">
             {%for quote in quotes%}
             <div class="container p-3">
                 <div class="card">
 
-                    <div class="card-body text-center">
-                        <p class="card-text fs-4 fst-italic">
-                            "{{quote}}"
-                        </p>
-                    </div>
+                <div class="card-body text-center">
+                    <p class="card-text fs-4 fst-italic">
+                        "{{quote["quote"]}}"
+                    </p>
+                    <p class="card-text fs-5 fw-bold">{{quote["speaker"]}}</p>
+                </div>
                 </div>
             </div>
             {%endfor%}
@@ -71,9 +73,5 @@
          </script>
 </body>
 
-<footer class="text-center">
-    <br>
-    <p class="fw-bold">Explore more at passenglish.vercel.app - Developed by Krishnanshu Adlakha</p>
-</footer>
 
 </html>
