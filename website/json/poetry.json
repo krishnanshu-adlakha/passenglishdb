@@ -145,10 +145,60 @@
         "poem":"Kamikaze",
         "themes":["Effects of conflict","Reality of war","Memory"]
     },
-                {
+    {
         "quote":"he must haved wondered/which had been the better way to die",
         "poem":"Kamikaze",
         "themes":["Effects of conflict","Reality of war","Memory"]
+    },
+    {
+        "quote":"Two vast and trunkless legs of stone",
+        "poem":"Ozymandias",
+        "themes":["Power","Futility of power"]
+    },
+    {
+        "quote":"Half sunk a shattered visage lies",
+        "poem":"Ozymandias",
+        "themes":["Power","Futility of power"]
+    },
+    {
+        "quote":"sneer of cold command",
+        "poem":"Ozymandias",
+        "themes":["Power","Abuse of power"]
+    },    
+    {
+        "quote":"yet survive, stamped on these lifeless things",
+        "poem":"Ozymandias",
+        "themes":["Power","Futility of power","Memory"]
+    },
+    {
+        "quote":"The hand that mocked them and the heart that fed",
+        "poem":"Ozymandias",
+        "themes":["Power","Futility of power","Abuse of power"]
+    },
+    {
+        "quote":"My name is Ozymandias, King of Kings",
+        "poem":"Ozymandias",
+        "themes":["Power","Futility of power","Irony"]
+    },
+    {
+        "quote":"Look my Works, ye Mighty, and despair!",
+        "poem":"Ozymandias",
+        "themes":["Power","Futility of power","Irony","Abuse of power"]
+    },
+    {
+        "quote":"Nothing beside Remains",
+        "poem":"Ozymandias",
+        "themes":["Power","Futility of power","Irony"]
+    },
+    {
+        "quote":"...boundless and bare",
+        "poem":"Ozymandias",
+        "themes":["Power","Futility of power","Irony"]
+    },
+    {
+        "quote":"The lone and level sands stretch far away.",
+        "poem":"Ozymandias",
+        "themes":["Power","Futility of power","Irony"]
     }
     
 ]
