@@ -199,6 +199,41 @@
         "quote":"The lone and level sands stretch far away.",
         "poem":"Ozymandias",
         "themes":["Power","Futility of power","Irony"]
+    },
+    {
+        "quote":"We are prepared",
+        "poem":"Storm On The Island",
+        "themes":["Power of nature","Irony"]
+    },
+    {
+        "quote":"The wizened earth has never troubled us.",
+        "poem":"Storm On The Island",
+        "themes":["Power of nature"]
+    },
+    {
+        "quote":"Which might prove company when it blows full/Blast: you know what I mean...",
+        "poem":"Storm On The Island",
+        "themes":["Power of nature"]
+    }
+    {
+        "quote":"Can raise a tragic chorus in a gale/So that you can listen to the thing you fear/Forgetting that it pummels your house too.",
+        "poem":"Storm On The Island",
+        "themes":["Power of nature"]
+    },
+    {
+        "quote":"Exploding comfortably down on the cliffs.",
+        "poem":"Storm On The Island",
+        "themes":["Power of nature"]
+    },
+    {
+        "quote":"...spits like a tame cat/Turned savage.",
+        "poem":"Storm On The Island",
+        "themes":["Power of nature","Irony","Futility of power"]
+    },
+    {
+        "quote":"We are bombarded by the empty air.",
+        "poem":"Storm On The Island",
+        "themes":["Power of nature","Irony","Futility of power"]
     }
     
 ]
