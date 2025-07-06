@@ -15,5 +15,5 @@ This a simple web app created with Python and Flask which contains many essentia
 
 # Progress
 + Inspector quotes complete
-+ 6/15 poems from Power and Conflict completed
++ 7/15 poems from Power and Conflict completed
 + Romeo and Juliet coming soon...
