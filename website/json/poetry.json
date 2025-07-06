@@ -234,6 +234,40 @@
         "quote":"We are bombarded by the empty air.",
         "poem":"Storm On The Island",
         "themes":["Power of nature","Irony","Futility of power"]
-    }
-    
+    },
+    {
+        "quote":"I wander thro' each charter'd street",
+        "poem":"London",
+        "themes":["Power","Abuse of power"]
+    },
+    {
+        "quote":"Near where the charter'd Thames does flow.",
+        "poem":"London",
+        "themes":["Power","Abuse of power","Power of nature"]
+    },
+    {
+        "quote":"The mind-forg'd manacles I hear",
+        "poem":"London",
+        "themes":["Power","Abuse of power"]
+    },
+        {
+        "quote":"Every blackning of Church appalls",
+        "poem":"London",
+        "themes":["Power","Abuse of power","Religous imagery"]
+    },
+    {
+        "quote":"Run in blood down Palace walls",
+        "poem":"London",
+        "themes":["Power","Abuse of power"]
+    },
+        {
+        "quote":"Blasts the new-born Infants tear",
+        "poem":"London",
+        "themes":["Power","Abuse of power"]
+    },
+    {
+        "quote":"And blights with plagues the Marriage hearse",
+        "poem":"London",
+        "themes":["Power","Abuse of power"]
+    },
 ]
