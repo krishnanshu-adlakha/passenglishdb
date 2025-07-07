@@ -82,7 +82,7 @@ def bypoem(name):
                 quotes.append({"quote":quote["quote"],"speaker":quote["poem"]})
 
         for quote in quotes:
-            quote = quote.replace("&","/")
+            quote["quote"] = quote["quote"].replace("&","/")
         return render_template("quotes.html",quotes=quotes,name=name)
     else:
         return render_template("404.html")
@@ -152,7 +152,7 @@ def printquotes(name,quotes):
     quotes_list = eval(unquote(quotes))
     name = unquote(name)
     for quote in quotes_list:
-        quote = quote.replace("&","/")
+        quote["quote"] = quote["quote"].replace("&","/")
     return render_template("pdf_template.html",quotes=quotes_list,name=name)
 
 @views.route("/examples/<id>")
