@@ -276,7 +276,7 @@
         "themes":["Effects of conflict","Abuse of power"]
     },
     {
-        "quote":"All in the valley of Death/Rode the six hundred.",
+        "quote":"All in the valley of Death%2FRode the six hundred.",
         "poem":"The Charge of the Light Brigade",
         "themes":["Abuse of power","Honour","Reality of war"]
     },
@@ -286,17 +286,17 @@
         "themes":["Power","Abuse of power","Reality of war"]
     },
     {
-        "quote":"Theirs not to make reply/Theirs not to reason why/Theirs but to do and die",
+        "quote":"Theirs not to make reply%2FTheirs not to reason why%2FTheirs but to do and die",
         "poem":"The Charge of the Light Brigade",
         "themes":["Power","Abuse of power","Reality of war","Effects of conflict","Honour"]
     },
     {
-        "quote":"Cannon to the right of them/Cannon to the left of them/Cannon in front of them",
+        "quote":"Cannon to the right of them%2FCannon to the left of them%2FCannon in front of them",
         "poem":"The Charge of the Light Brigade",
         "themes":["Reality of war","Effects of conflict","Honour"]
     },
     {
-        "quote":"Honour the charge they made!/Honour the Light Brigade/Noble six hundred!",
+        "quote":"Honour the charge they made!/Honour the Light Brigade%2FNoble six hundred!",
         "poem":"The Charge of the Light Brigade",
         "themes":["Reality of war","Effects of conflict","Honour"]
     }
