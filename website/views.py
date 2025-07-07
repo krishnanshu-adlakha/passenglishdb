@@ -81,6 +81,8 @@ def bypoem(name):
             if quote["poem"] == name:
                 quotes.append({"quote":quote["quote"],"speaker":quote["poem"]})
 
+        for quote in quotes:
+            quote = quote.replace("&","/")
         return render_template("quotes.html",quotes=quotes,name=name)
     else:
         return render_template("404.html")
@@ -117,6 +119,8 @@ def bytheme(text,theme):
                 else:
                     quotes.append({"quote":quote["quote"],"speaker":quote["character"]})
 
+        for quote in quotes:
+            quote.replace("&","/")
         return render_template("quotes.html",quotes=quotes,name=theme)
 
 @views.route("bycharacter/<text>")
@@ -147,6 +151,8 @@ def bycharacter(text):
 def printquotes(name,quotes):
     quotes_list = eval(unquote(quotes))
     name = unquote(name)
+    for quote in quotes_list:
+        quote = quote.replace("&","/")
     return render_template("pdf_template.html",quotes=quotes_list,name=name)
 
 @views.route("/examples/<id>")
