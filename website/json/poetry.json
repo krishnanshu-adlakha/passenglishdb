@@ -108,7 +108,7 @@
     {
         "quote":"King, honour, human dignity, etcetera/Dropper like luxuries in a yelling alarm",
         "poem":"Bayonet Charge",
-        "themes":["Effects of conflict","Reality of war","Power"]
+        "themes":["Effects of conflict","Reality of war","Power","Honour"]
     },
     {
         "quote":"a shaven head full of powerful incantations",
@@ -260,7 +260,7 @@
         "poem":"London",
         "themes":["Power","Abuse of power"]
     },
-    {
+    {                
         "quote":"Blasts the new-born Infants tear",
         "poem":"London",
         "themes":["Power","Abuse of power"]
@@ -269,5 +269,35 @@
         "quote":"And blights with plagues the Marriage hearse",
         "poem":"London",
         "themes":["Power","Abuse of power"]
+    },
+    {
+        "quote":"Half a league, half a league, half a league onward",
+        "poem":"The Charge of the Light Brigade",
+        "themes":["Effects of conflict","Abuse of power"]
+    },
+    {
+        "quote":"All in the valley of Death/Rode the six hundred.",
+        "poem":"The Charge of the Light Brigade",
+        "themes":["Abuse of power","Honour","Reality of war"]
+    },
+    {
+        "quote":"Someone had blundered.",
+        "poem":"The Charge of the Light Brigade",
+        "themes":["Power","Abuse of power","Reality of war"]
+    },
+    {
+        "quote":"Theirs not to make reply/Theirs not to reason why/Theirs but to do and die",
+        "poem":"The Charge of the Light Brigade",
+        "themes":["Power","Abuse of power","Reality of war","Effects of conflict","Honour"]
+    },
+    {
+        "quote":"Cannon to the right of them/Cannon to the left of them/Cannon in front of them",
+        "poem":"The Charge of the Light Brigade",
+        "themes":["Reality of war","Effects of conflict","Honour"]
+    },
+    {
+        "quote":"Honour the charge they made!/Honour the Light Brigade/Noble six hundred!",
+        "poem":"The Charge of the Light Brigade",
+        "themes":["Reality of war","Effects of conflict","Honour"]
     }
 ]
