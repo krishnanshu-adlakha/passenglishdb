@@ -80,10 +80,10 @@ def bypoem(name):
         for quote in poetry_quotes:
             if quote["poem"] == name:
                 quotes.append({"quote":quote["quote"],"speaker":quote["poem"]})
-
+        url_quotes=quotes
         for quote in quotes:
             quote["quote"] = quote["quote"].replace("&","/")
-        return render_template("quotes.html",quotes=quotes,name=name)
+        return render_template("quotes.html",quotes=quotes,name=name,url_quotes=url_quotes)
     else:
         return render_template("404.html")
 
@@ -118,10 +118,10 @@ def bytheme(text,theme):
                     quotes.append({"quote":quote["quote"],"speaker":quote["poem"]})
                 else:
                     quotes.append({"quote":quote["quote"],"speaker":quote["character"]})
-
+        url_quotes = quotes
         for quote in quotes:
             quote["quote"] = quote["quote"].replace("&","/")
-        return render_template("quotes.html",quotes=quotes,name=theme)
+        return render_template("quotes.html",quotes=quotes,name=theme,url_quotes=url_quotes)
 
 @views.route("bycharacter/<text>")
 def bycharacter(text):
@@ -135,25 +135,30 @@ def bycharacter(text):
         for quote in inspector_quotes:
             if text == quote["character"]:
                 quotes.append({"quote":quote["quote"],"speaker":quote["character"]})
-        
-        return render_template("quotes.html",quotes=quotes,name=text)
+        url_quotes = quotes
+        for quote in quotes:
+            quote["quote"] = quote["quote"].replace("&","/")
+        return render_template("quotes.html",quotes=quotes,name=text,url_quotes=url_quotes)
     elif text in rj_characters:
         quotes = []
         for quote in rj_quotes:
             if text == quote["character"]:
                 quotes.append({"quote":quote["quote"],"speaker":quote["character"]})
-        
-        return render_template("quotes.html",quotes=quotes,name=text)
+        url_quotes = quotes
+        for quote in quotes:
+            quote["quote"] = quote["quote"].replace("&","/")
+        return render_template("quotes.html",quotes=quotes,name=text,url_quotes=url_quotes)
     else:
         return render_template("404.html")
 
 @views.route("/printquotes/<name>/<quotes>")
 def printquotes(name,quotes):
     quotes_list = eval(unquote(quotes))
+    url_quotes = quotes_list
     name = unquote(name)
     for quote in quotes_list:
         quote["quote"] = quote["quote"].replace("&","/")
-    return render_template("pdf_template.html",quotes=quotes_list,name=name)
+    return render_template("pdf_template.html",quotes=quotes_list,name=name,url_quotes=url_quotes)
 
 @views.route("/examples/<id>")
 def examples(id):
