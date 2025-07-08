@@ -120,7 +120,7 @@ def bytheme(text,theme):
                     quotes.append({"quote":quote["quote"],"speaker":quote["character"]})
 
         for quote in quotes:
-            quote.replace("&","/")
+            quote["quote"] = quote["quote"].replace("&","/")
         return render_template("quotes.html",quotes=quotes,name=theme)
 
 @views.route("bycharacter/<text>")
