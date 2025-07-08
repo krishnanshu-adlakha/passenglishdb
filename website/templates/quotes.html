@@ -5,7 +5,7 @@
 <br>
 <h1 class="text-center fw-bold">{{name}}</h2>
     <div class="text-center">
-        <a class="btn btn-primary text-center" href="{{ url_for('views.printquotes', name=name, quotes=quotes) }}">Print</a>
+        <a class="btn btn-primary text-center" href="{{ url_for('views.printquotes', name=name, quotes=url_quotes) }}">Print</a>
     </div>
     <br>
     <div class="row row-cols-1 g-3">
